@@ -28,7 +28,7 @@ end
 
 def retrieve_element_from_index(array, index_number)
   array = ["I", "am", "trying", "this"]
-  
+  array.delete_at(1)
   
 end
 
